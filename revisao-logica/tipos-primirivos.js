@@ -1,21 +1,15 @@
-//var, let, const
+//string, nomber (int, floats), boolean 
 
-//var -> Ess - cross-browser
-//let e const -> ES2015
+let minhaVar = "minha string"
+let minhavar2 = "minha 'string' com aspas duplas";
+
+var minhavar3 = `minha template literal`;
 
 
-let teste = "minha string";
-teste = 10;
+let idade = 40
+//let msg = "eu possuo "+ idade +" anos";
+let msg = `eu possuo ${idade} anos`;
 
-const teste2 =10;
 
-let teste3;
-
-console.log(teste);
-
-teste3 =  20;
-console.log(teste3);
-
-const teste4 ="eu sou imutavel";
-console.log(teste4);
-
+console.log(msg);
+console.log("Hello " + "world")
