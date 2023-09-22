@@ -22,3 +22,19 @@ i++;
 i++;
 i++;
 console.log(i);
+
+//COMPARAÇÃO
+/*
+igualdade de valor ==
+igualdade de valor e tipo ===
+<, >, <=, >=
+!= valores diferentes
+!== valores e tipos diferentes
+
+*/
+
+console.log(n1, n2, n3);
+
+console.log(n1 != "10");
+console.log(n1 !== "10");
+
