@@ -34,8 +34,19 @@
       function obtemDiaSemana(){
         return new Date().getDay()
       }
-      let dia = obtemDiaSemana()
-      console.log(dia)
+      console.log(obtemDiaSemana())
+        
+      function somar(n1 = 0, n2 = 0){
+        //let _n1 = n1 || 0
+        //let _n2 = n2 || 0
+         return n1 + n2
+      }
+
+      let soma = somar(3, 5, 8)
+      console.log(soma)
+
+      console.log(somar(10))
+      console.log(somar())
 
     </script>
 </body>
