@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Funções - Tabuada</h1>
+
+    <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
+    <button>Limpar Tabuada</button>
+    <div id="output"></div>
+
+    <script>
+
+        const output = document.getElementById("output") 
+        function mostrarTabuada(){
+            const numero = parseInt(output.innerHTML = prompt("Digite um número"));
+            
+            let indice = 0;
+        while(indice <= 100){
+            indice++
+        document.write(`${numero} x ${indice} = ${(indice * numero)}<br>`)
+
+        }
+    }
+
+    </script>
+</body>
+</html>
