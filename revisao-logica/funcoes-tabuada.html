@@ -17,14 +17,16 @@
 
         const output = document.getElementById("output") 
         function mostrarTabuada(){
-            const numero = parseInt(output.innerHTML = prompt("Digite um número"));
             
-            let indice = 0;
-        while(indice <= 100){
-            indice++
-        document.write(`${numero} x ${indice} = ${(indice * numero)}<br>`)
+            let n = parseFloat(prompt("digite um número"))
+                     
+                    let msg = ""
+                    for(let i = 0; i <= 1000; i++){
+                        msg += `${n} x ${i} = ${n * i}<br>`
+                    }
 
-        }
+                     output.innerHTML = msg
+                    
     }
 
     </script>
