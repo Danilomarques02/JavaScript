@@ -10,7 +10,7 @@
     <h1>Funções - Tabuada</h1>
 
     <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
-    <button>Limpar Tabuada</button>
+    <button onclick="limparTabuada()">Limpar Tabuada</button>
     <div id="output"></div>
 
     <script>
@@ -21,14 +21,27 @@
             let n = parseFloat(prompt("digite um número"))
                      
                     let msg = ""
-                    for(let i = 0; i <= 1000; i++){
-                        msg += `${n} x ${i} = ${n * i}<br>`
+
+
+                       for(let i = 0; i <= 1000; i++){
+                       msg += `${n} x ${i} = ${n * i}<br>`
                     }
+                    //let  i = 0;
+                    //while(i <= 1000){
+                    //    msg += `${n} x ${i} = ${n * i}<br>`
+                    //   i+++
+                    //}
 
                      output.innerHTML = msg
-                    
-    }
 
+
+    }
+   function limparTabuada(){  
+    
+    output.innerHTML = ""
+
+
+}
     </script>
 </body>
 </html>
