@@ -24,14 +24,12 @@
 
 
                        for(let i = 0; i <= 1000; i++){
-                       msg += `${n} x ${i} = ${n * i}<br>`
+                       if(i == 10){
+                        break
+                       }
+                        msg += `${n} x ${i} = ${n * i}<br>`
                     }
-                    //let  i = 0;
-                    //while(i <= 1000){
-                    //    msg += `${n} x ${i} = ${n * i}<br>`
-                    //   i+++
-                    //}
-
+                  
                      output.innerHTML = msg
 
 
