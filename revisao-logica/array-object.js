@@ -4,12 +4,15 @@ const pessoa1 ={}
 
 const pessoas = [{
     nome:"Danilo",
-    idada: 21
+    idade: 21
 }, {
     nome:"Helena",
-    idada: 45
+    idade: 45
 }, {
     nome:"João",
-    idada: 30
+    idade: 30
 }]
-console.log(pessoas[0].nome)
+
+for(let i = 0; i < pessoas.length; i++){
+    console.log(`$${pessoas[i].nome} possui ${pessoas[i].idade} anos`)
+}
