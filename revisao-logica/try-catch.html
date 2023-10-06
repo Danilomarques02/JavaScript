@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pr-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,14 +14,18 @@
         //alert(sum(3,"a"))
         //.write(sum(4,2))
 
+        
          let soma =""
          try{
             soma = sum(3, "a")
          }catch(e){
             alert("Ocorreu um erro")
             console.log(e.message)
+         }finally{
+            console.log("bloco finally")
          }
         console.log(soma)
+        console.log("Fim do programa")
     </script>
 
 
