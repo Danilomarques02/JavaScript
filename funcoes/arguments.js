@@ -1,9 +1,13 @@
-function somar(arr){
+function somar(){
+    //console.log(arguments)
+    
     let total = 0;
-    for(let i = 0; i < arr.length; i++){
-        total += arr[i]
+    for(let i = 0; i < arguments.length; i++){
+        total += arguments[i]
     }
     return total
 }
-
-console.log(somar([1, 2, 3]))
+console.log(somar.name)
+console.log(somar(1, 2, 3))
+console.log(somar(1, 2, 3, 4, 5))
+console.log(somar(1, 2, 3, 5, 12, 14, 50))
