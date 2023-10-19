@@ -6,9 +6,10 @@
 //init()
 
 (function(win, doc){
-    let isValid = false
-    win.alert("Ola, mundo")
-    console.log("menu", isValid, n1, n2, n3)
+    "use strict"
+    isValid = false
+
+    console.log("menu", isValid)
 
     function init(){
         console.log("init do menu")
