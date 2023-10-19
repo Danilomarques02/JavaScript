@@ -5,12 +5,13 @@
 //    }
 //init()
 
-(function(){
+(function(win, doc){
     let isValid = false
-    console.log("init menu", isValid)
+    win.alert("Ola, mundo")
+    console.log("menu", isValid, n1, n2, n3)
 
     function init(){
         console.log("init do menu")
     }
     init()
-})()
+})(window, document)
